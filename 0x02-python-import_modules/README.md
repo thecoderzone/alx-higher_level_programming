@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 mport a simple function from a simple file
 mandatory
 Write a program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
+=======
+ program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
+>>>>>>> 7eda94db26e17697016c5f9256dec637f953e066
 
 You have to use print function with string format to display integers
 You have to assign:
@@ -13,6 +17,10 @@ You can only use the word add_0 once in your code
 You are not allowed to use * for importing or __import__
 Your code should not be executed when imported - by using __import__, like the example below
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7eda94db26e17697016c5f9256dec637f953e066
 Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.
 
 Do not use the function print (with string format to display integers) more than 4 times
@@ -26,7 +34,10 @@ the word calculator_1 should be used only once in your file
 You are not allowed to use * for importing or __import__
 Your code should not be executed when imported
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7eda94db26e17697016c5f9256dec637f953e066
 Write a program that prints the number of and the list of its arguments.
 
 The output should be:
@@ -38,3 +49,12 @@ the position of the argument (starting at 1) followed by :, followed by the argu
 Your code should not be executed when imported
 The number of elements of argv can be retrieved by using: len(argv)
 You do not have to fully understand lists yet, but imagine that argv can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.
+<<<<<<< HEAD
+=======
+
+Write a program that prints the result of the addition of all arguments
+
+The output should be the result of the addition of all arguments, followed by a new line
+You can cast arguments into integers by using int() (you can assume that all arguments can be casted into integers)
+Your code should not be executed when imported
+>>>>>>> 7eda94db26e17697016c5f9256dec637f953e066
